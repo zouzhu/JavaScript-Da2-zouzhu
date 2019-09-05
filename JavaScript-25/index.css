@@ -1,0 +1,84 @@
+ul{list-style: none;padding:0;margin: 0}
+a{text-decoration: none;}
+h3{padding: 0;margin: 0;}
+
+.selectYs{width: 200px;height: 30px;border-radius: 4px;}
+
+
+
+.box1{width: 100%;height: 735px;}
+/* 左侧最大的盒子 */
+.box1-left{
+      width: 18%;height: 2200px;
+      background-color: rgb(14, 20, 41);
+      float: left;
+      position: relative;
+}
+
+/* 右侧最大的盒子 */
+.box1-right{
+      width: 82%;height: 1000px;
+      background-color: white;
+      float: right;
+}
+
+/* 左侧导航栏部分 */
+.left-ul1{position:fixed;width: 273px;}
+.left-ul2{display: none;padding-left: 50px;}
+.main a{line-height: 40px;display: block;padding-left: 20px;}
+.left-ul2 li{line-height: 28px;}
+
+/* 右侧部分 */
+.rbox1{width: 100%;height: 9%;background-color:white; }    /*红色*/
+.rbox1 h2{position:absolute;padding-top: 20px;}
+
+.rbox2{width: 100%;height: 735px;padding-top: 50px;}   /*绿色*/
+
+.lunbo{width: 400px;height: 200px;background-color: green;overflow: hidden;}
+.lunbo ul{height: 100%;width: 300%;position: relative;left: 0px;}
+.lunbo li{height: 100%;float: left;width: 400px;}
+
+/* 表单部分 */
+.r_biaodan{width: 50%;height: 620px;background-color: white;float: left;padding-left: 90px;}
+.r_biaodan li{padding-top: 19px;}
+.r_biaodan li button:hover{background-color: rgb(171, 237, 120);}
+
+/* 头像 */
+.touxiang{width: 40%;height: 620px;float: left;background-color: white;
+          padding-left: 250px;}
+.touxiang_1{width: 140px;height: 140px;background-color: blue;border-radius: 50%;
+            overflow: hidden;}
+.touxiang button{margin-left: 20px;margin-top: 20px;height: 30px;}
+
+
+/*弹窗*/
+.tangchuang1{width: 100%; height: 100%; z-index: 999;background:rgba(127.5, 127.5, 127.5,0.8);
+             position:fixed;padding-top: 10%;display: none;}
+.tangchuang1_1{width: 400px;height: 400px;background-color: white;margin: 0 auto;
+             opacity: 1;border-radius: 10px;padding-top: 60px;padding-left: 50px;}
+.t_table{position: absolute;width: 300px;border: 1px solid white;display: none;}
+.t_table tr{width:100px;line-height: 40px;}
+
+
+
+/* 图片列表 */
+.rbox3{width: 100%;height: 635px;background-color: white;
+      }
+.rbox3_1{width: 90%;height: 80%;background-color: white;
+        margin: 0 auto;}
+.rbox3_11 li{float: left;width: 373px;height: 300px;background-color: white;padding-right: 25px;}
+.rbox3_11 li img{width: 346px;height: 164px;position: absolute;}
+.rbox3_11 li h5{margin-top: 190px;}
+
+/* 复选框提交 */
+.rbox4{width: 100%;height: 730px;background-color:rgb(219, 241, 244); }
+.rbox4 table tr{line-height: 25px;}
+.t_table{position: absolute;width: 300px;border: 1px solid white;display: none;}
+.t_table tr{width:100px;line-height: 40px;}
+.rbox4 table tr{line-height: 40px;}
+/*复选框弹窗*/
+.tangchuang2{width: 100%; height: 100%; z-index: 999;background:rgba(127.5, 127.5, 127.5,0.8);
+             position:fixed;padding-top: 10%;display: none;}
+.tangchuang2_2{width: 400px;height: 400px;background-color: white;margin: 0 auto;
+             opacity: 1;border-radius: 10px;padding-top: 20px;padding-left: 20px;padding-right: 20px;}
+.tangchuang2_2 ul li{padding-top: 20px;}
